@@ -1,3 +1,6 @@
+# Project Intro
+This project was primarily crafted with the intention of learning and implementing e-commerce cart functionality using React.js, as well as integrating PayPal payment methods.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
