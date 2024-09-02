@@ -3,9 +3,10 @@ import logo from '../images/logo.png'
 import { Link } from 'react-router-dom'
 import { ShoppingCart } from 'phosphor-react'
 import {PRODUCTS} from './products'
-import { Product } from './Product'
+import  Product  from './Product'
 import './product.css'
 import Footer from '../Components/Footer'
+import productDatas from '../data/data.json'
 
 export const PackagesPage = () => {
   return (
@@ -20,7 +21,7 @@ export const PackagesPage = () => {
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class=" navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item active">
               <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
@@ -53,8 +54,11 @@ export const PackagesPage = () => {
 
       </div>
       <div className='products'>
-        {PRODUCTS.map((product) =>(
-        <Product data={product}/> ))}
+        {
+          productDatas.map((product) => (
+            <Product/>
+          ))
+        }
       </div>
       <Footer/>
     </div>

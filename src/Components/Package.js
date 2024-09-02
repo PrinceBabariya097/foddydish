@@ -10,8 +10,8 @@ const Package = () => {
   return (
     <div>
       <div class="packages mt-5" id="packages">
-        <h1 class="text-center">Our Packages</h1>
-        <p class="text-center">Discover our thoughtfully curated packages designed to suit a variety of occasions and budgets.</p>
+        <h1 class="text-center text-2xl font-bold">Our Packages</h1>
+        <p class="text-center mt-4">Discover our thoughtfully curated packages designed to suit a variety of occasions and budgets.</p>
         <div class="row mt-5" id='1'>
           <div class="col-lg-4 col-sm-12">
             <div class="card mt-3" id='2'>
@@ -46,7 +46,7 @@ const Package = () => {
                   <img src={soup} alt='' style={{ height: "300px" }}/>
                   </div>
                   <h4 class="card-title mt-3">Scrumptious Soupsy</h4>
-                  <p class="card-text">From creamy tomato bisque to aromatic chicken noodle, our soups are made with the finest ingredients and carefully simmered to perfection.</p>
+                  <p class="card-text">From creamy tomato bisque to aromatic chicken noodle, our soups are made with the finest ingredients and expertly.</p>
                   <button type="button" class="btn btn-danger">Get Started</button>
                 
               </div>
@@ -87,7 +87,7 @@ const Package = () => {
                   <img src={fries} alt="" style={{height: "300px"}}/>
                 </div>
                 <h4 class="card-title mt-3">Finger-Lickin' Finger Chips</h4>
-                <p class="card-text">Crispy, golden, and addictive, our finger chips are the perfect accompaniment to any meal. Served hot and seasoned to perfection, these thin-cut potato fries will have you reaching for more. </p>
+                <p class="card-text">Crispy, golden, and addictive, our finger chips are the perfect accompaniment to any meal. Served hot and seasoned to perfection.</p>
                 <button type="button" class="btn btn-danger">Get Started</button>
               </div>
             </div>

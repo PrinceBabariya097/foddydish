@@ -7,10 +7,10 @@ const Chef = () => {
   return (
     <div><div class="chefs container text-center mt-5" id="chefs">
         
-    <h2>Our Chefs</h2>
-    <p class="mt-2">Explore Our Services and Satisfy Your Culinary Cravings!</p>
-    <div class="row">
-      <div class="col-lg-4 col-sm-12">
+    <h2 className='text-2xl font-bold'>Our Chefs</h2>
+    <p class="mt-2 my-4">Explore Our Services and Satisfy Your Culinary Cravings!</p>
+    <div class="row mx-auto">
+      <div class="col-lg-4 col-sm-12 flex justify-center">
         <div class="card mt-3">
           <div class="card-body">
             <div class="card-img">
@@ -26,7 +26,7 @@ const Chef = () => {
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-12 ">
+      <div class="col-lg-4 col-sm-12 flex justify-center ">
         <div class="card mt-3">
           <div class="card-body">
             <div class="card-img">
@@ -42,7 +42,7 @@ const Chef = () => {
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-12 ">
+      <div class="col-lg-4 col-sm-12 flex justify-center ">
         <div class="card mt-3">
           <div class="card-body">
             <div class="card-img">
