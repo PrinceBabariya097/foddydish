@@ -9,7 +9,7 @@ import Loader from '@/components/Loader'
 import Product from '@/components/Product'
 import PaginationButton from '@/components/PaginationButton'
 import useThrottel from '@/hooks/useThrottel'
-import './navbar.css'
+// import './navbar.css'
 
 const SubCatagoryPage = () => {
 
